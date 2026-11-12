@@ -1,0 +1,47 @@
+body{
+    background-color: green;
+}
+p{
+    text-align: center;
+    font-size: 50px;
+    color: darkblue;
+    background-color: gold;
+}
+table{
+    border: 6px double blue;
+    font-size: 24px;
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+}
+th,td{
+    border: 2px solid goldenrod;
+    width: 25%;
+    height: 1cm;
+}
+tr:hover{
+    background-color: gray;
+}
+td:hover{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2em;
+    background-image: url("https://i.makeagif.com/media/12-21-2020/-9ngjM.gif");
+}
+tr:nth-child(odd){
+    background-color: rgba(113, 49, 44, 0.499);
+}
+tr:nth-child(even){
+    background-color: rgba(72, 0, 253, 0.608);
+}
+.s1{
+    color: lime;
+    vertical-align: bottom;
+    text-align: right;
+}
+caption{
+    font-size: 2em;
+    text-transform: uppercase;
+    background: linear-gradient(to left,Red, Orange, Yellow, Green, Blue, Indigo, Violet);
+}
